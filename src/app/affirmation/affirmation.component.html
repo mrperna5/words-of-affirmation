@@ -1,0 +1,10 @@
+<div class="affirmation-container">
+  <div>
+    Words of Affirmation
+  </div>
+  <img [src]="currentAffirmation.imageUrl" alt="Affirmation Image" loading="lazy">
+  <p>{{ currentAffirmation.quote }}</p>
+  <div class="button-container">
+    <button (click)="generateRandomAffirmation()">🐠 Get another affirmation</button>
+  </div>
+</div>
